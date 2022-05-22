@@ -1,0 +1,68 @@
+
+html {
+    font-size: 20px; /* rem takes relative to this font size */
+    font-family: sans-serif;
+}
+
+.layout{
+    display: flex;
+    gap: 20px;
+}
+
+.layoutLeft{
+    height: 80vh;
+    width: 50vw;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+#slidebar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.slidecontainer, #BoxValue {
+    margin-top: 20px;
+}
+
+.reset, .rainbow, .RGB, .toadd {
+    width: 80px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(var(--columns-row), 1fr);
+    grid-template-rows: repeat(var(--columns-row), 1fr);
+    height: 80vh;
+    width: 50vw;
+}
+
+.cell {
+    border: 1px solid #000;
+    background-color: rgb(255, 89, 89);
+ }
+
+ .cell2 {
+     border: 1px solid #000;
+     background-color: rgb(255, 230, 0);
+  }
+
+  .cell3 {
+     border: 1px solid #000;
+     background-color: rgb(68, 0, 255);
+  }
+
+  .cell4{
+    border: 1px solid #000;
+    background-color: rgb(255, 0, 170);
+ }
+
+ .cell5{
+    border: 1px solid #000;
+    background-color: rgb(42, 238, 228);
+ }
